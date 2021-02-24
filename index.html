@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <!-- 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
+	<link rel="stylesheet" href="main.css" />
+</head>
+<body>
+
+<div class="vertical">
+	<div class="col-md-2 sidebar">
+    <ul class="nav nav-stacked">
+      <h2>Dashboard</h2>
+
+      <li class="active"><a data-toggle="tab" href="#home"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+      <li><a href="#" data-toggle="collapse" data-target="#sub-menu">
+        <span class="glyphicon glyphicon-user"></span> User <span class="caret"></span></a>
+          <div class="collapse" id="sub-menu">
+            <ul class="nav nav-list">
+              <li><a data-toggle="tab" href="#add">Add User</a></li>
+              <li><a data-toggle="tab" href="#display">Display User</a></li>
+            </ul>
+         	</div>
+      </li>
+
+      <li><a href="#" data-toggle="collapse" data-target="#category">
+        <span class="glyphicon glyphicon-file"></span> Categories <span class="caret"></span></a>
+          <div class="collapse" id="category">
+            <ul class="nav nav-list">
+              <li><a data-toggle="tab" href="#addCategory">Add Category</a></li>
+              <li><a data-toggle="tab" href="#displayCategory">Display Category</a></li>
+            </ul>
+           </div>
+        </li>
+
+      	<li><a href="#"><span class="glyphicon glyphicon-cog"></span> Settings</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-off"></span> Logout</a></li>
+      </ul>
+  </div>
+
+<div class="body">
+  <div class="col-md-10 tab-content">
+    <div id="add" class="tab-pane fade">
+    
+    <div>
+      <label style="width: 180px;">Firstname</label>
+      <input type="text" name="first" />
+    </div>
+
+   <div>
+      <label style="width: 180px;">Lastname</label>
+      <input type="text" name="last" />
+    </div>
+
+    <div>
+      <label style="width: 180px;">Email Address</label>
+      <input type="text" name="email" />
+    </div>
+
+    <div>
+      <label style="width: 180px;">Sex</label>
+      <label> Male </label><input  name="optradio" type="radio"> 
+      <label> Female </label><input  name="optradio" type="radio">
+    </div>
+
+    <div>
+      <input type="submit" name="submit" value="Submit" />
+    </div>
+    
+    </div>
+
+    <div id="home" class="tab-pane fade in active">
+      dsvfb
+    </div>
+
+    <div id="display" class="tab-pane fade">
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+
+    <div id="addCategory" class="tab-pane fade">
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+
+    <div id="displayCategory" class="tab-pane fade">
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+.h2{
+	color: white;
+}
+.top{
+	background-color: white;
+}
+.down{
+	
+	background-color: #e6f2ff;
+}
+.boxes{
+	background-color: red;
+	
+}
+/*.vertical{
+	margin-top: 80px;
+}*/
+.sidebar{
+	background-color: lightgray;
+	
+}
+.sidebar
+{
+	padding-right: 0px !important;
+     padding-left: 0px !important;
+}
+.tab-pane{
+	padding: 60px 20px 40px 100px;
+}
